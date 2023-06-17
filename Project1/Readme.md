@@ -12,4 +12,4 @@ This is just a website template including only Structure and Layout. No Javascri
 ### Credits:
   - All the product images are generated from my personal account of **[Leonardo AI](https://app.leonardo.ai/)** *image generation tool*.
   - The image on homepage is generated from my personal account of [**WOMBO Dream**](https://dream.ai/create) *AI image generation tool*.
-  - The fancy quote on the navbar of the Shop & Contact Page is generated from *[**Chatgpt**](chat.openai.com)* .
+  - The fancy quote on the navbar of the Shop & Contact Page is generated from _[**Chatgpt**](https://chat.openai.com/)_ .
