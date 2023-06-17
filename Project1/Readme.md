@@ -2,7 +2,7 @@
 This is just a website template including only Structure and Layout. No Javascript functionality.
 ### Key Features:
   - **Responsive Design**: The website is designed to be responsive, ensuring a seamless user experience across different devices & screen sizes.
-  - **Navigation**: Contains a navigation bar/menu that allows users to explore different sections of the website, including the _homepage_, *shop* and *contact* pages.
+  - **Navigation**: Contains a navigation bar/menu that allows users to explore different sections of the website, including the [_homepage_](CSS-Projects/Project1/homepage.html), [*shop*](CSS-Projects/Project1/newebsite.html) and [*contact*](CSS-Projects/Project1/contactPage.html) pages.
   - **Search Panel**: The website includes a search option to easily find products by their names.
   - **Contact Page**: A dedicated contact page is available for users to get in touch with any questions or feedback.
 ### Technologies Used:
