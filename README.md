@@ -1,5 +1,5 @@
 # CSS-Projects
-All the CSS projects I build will be kept here.
+All the small(HTML, CSS, JS) projects I build will be kept here.
 
   ## **Project1**
   - Responsive Online Shopping Platform for stylish & fashionable attires.
