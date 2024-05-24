@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey Form</title>
+  <link rel='stylesheet' type='text/css' href='styles.css'></link>
+</head>
+<body>
+  <h1 id='title'>Survey Form</h1>
+  <p id='description'>The Certification Project</p>
+  <form id='survey-form'>
+    <fieldset>
+      <label for='name' id='name-label'>Enter Your Name Here<input id='name' type='text' placeholder='John Doe' required/></label>
+      <label for='email' id='email-label'>Enter Your Email Here<input id='email' type='email' placeholder='something@gmail.com' required/></label>
+      <label for='number' id='number-label'>Enter Your Age<span id='optional'>(Optional)</span><input type='number' id='number' min='13' max='100' placeholder='Age'/></label>
+    </fieldset>
+    <fieldset>
+      <label>What is your favorite resource of freeCodeCamp?
+        <select id='dropdown' required>
+          <option value=''>(Select One)</option>
+          <option value='1'>YouTube Lectures</option>
+          <option value='2'>Blogs</option>
+          <option value='3'>Certification Projects</option>
+          <option value='4'>Poadcasts</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <label for='Definitely'>
+        <input id='Definitely' name='recommendation' value='definitely' type='radio' checked/>
+        <b>Definitely</b>
+      </label>
+      <label for='Maybe'>
+        <input id='Maybe' value='maybe' name='recommendation' type='radio' />
+        <b>Maybe</b>
+      </label>
+      <label for='Not-Sure'>
+        <input id='Not-Sure' value='unsure' name='recommendation' type='radio' />
+        <b>Not Sure</b>
+      </label>
+    </fieldset>
+    <fieldset>
+      <p>What would you like to see improved?</p>
+      <label class="container">
+        <input name='improve' type="checkbox" checked value='frontend -projects'>
+        <span class="checkmark">Front-end Projects</span>
+      </label>
+      <label class="container">
+        <input name='improve' type="checkbox" value='backend-projects'>
+        <span class="checkmark">Back-end Projects</span>
+      </label>
+      <label class="container">
+        <input name='improve' type="checkbox" value='data-visualization'>
+        <span class="checkmark">Data Visualization</span>
+      </label>
+      <label class="container">
+        <input name='improve' type="checkbox" value='challenges'>
+        <span class="checkmark">Challenges</span>
+      </label>
+      <label class="container">
+        <input name='improve' type="checkbox" value='videos'>
+        <span class="checkmark">Videos</span>
+      </label>
+      <label class="container">
+        <input name='improve' type="checkbox" value='additional-courses'>
+        <span class="checkmark">Additional Courses</span>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>Any comments or suggestions?</label>
+      <textarea rows='4' cols='30' placeholder='Enter Your Comment Here .....'></textarea>
+    </fieldset>
+    <input type="submit" id='submit' value="Submit" />
+  </form>	
+</body>
+</html>
