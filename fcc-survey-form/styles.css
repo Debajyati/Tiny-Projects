@@ -1,0 +1,86 @@
+body {
+  background-color: #6643b5;
+  font-size: 18px;
+}
+
+h1,
+p {
+  color: white;
+  margin: 0.2em 0;
+  text-align:center;
+  padding: 0.1em 0;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input,
+label,
+select {
+  display: block;
+}
+
+fieldset {
+  margin: 1rem 0;
+  background-color: rgba(0,0,50,80%);
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+input {
+  width: 100%;
+  margin-top: 0.5rem;
+  height: 4%;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+  padding: 1em 0.2em 0.2rem 0;
+}
+select {
+  padding: 0.3em;
+  margin: 1em 0;  
+}
+
+#optional {
+  color: grey;
+}
+
+input[name='recommendation'],
+input[type='checkbox'] {
+  width: unset;
+  display: inline;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-left: 0.5em;
+}
+
+b,
+.checkmark {
+  vertical-align: middle;
+  padding-left: 0.5em;
+}
+
+#submit {
+  font-size: 16px;
+  background-color: rgb(0,50,100);
+  color: rgb(255,255,200);
+}
+
+#submit:hover {
+  color: rgb(0,50,100);
+  background-color: rgb(0, 255, 127);
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  margin: 1rem 0;
+}
