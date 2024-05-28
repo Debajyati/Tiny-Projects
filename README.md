@@ -11,5 +11,8 @@ All the small(HTML, CSS, optionally JS) projects I build will be kept here.
   ## **basic-calculator**
   - The basic-calculator is a web-based application built with only html,css and js, making it accessible through any device with a web browser.
   - It is lightweight, easy to use, and perfect for quick and basic arithmetic calculations.
+  
+  ## **A survey form layout**
+  - This project in one my fcc certfication projects.
 
 All of these projects are licensed under MIT LICENSE.
